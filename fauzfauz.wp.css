@@ -1,0 +1,42 @@
+/*
+ * RemIcy Wordpress Theme v.2.1
+ * 03/05/2018
+ * @yuukithemes
+ */
+/** Media Responsive **/
+@media screen and (max-width:800px){
+#page .featured-wrap>article,#page .post-outer{width:33.33%}
+.container{width:95%}
+#page .featured-wrap{margin:auto}
+#page .page-ultima-left{flex:100%}
+#page .page-ultima-right{flex:100%}
+#page .ultima-right-child .post-recent{width:50%}
+.footer-social a span{font-size:13px}
+.search-form{width:100%;display:none;position:relative;right:85px}
+.mobi-more-btn{top:11px;display:block;right:53px;font-size:17px}
+#mb_scput:checked ~ form{display:block}
+.menu-fauzmags-container{display:none;clear:both;background:#d64444;margin:0 -20px;padding:0 19px 0;white-space:nowrap;overflow-y:auto}
+#mb_lab{visibility:inherit;margin:0 auto;display:inline-block;text-transform:uppercase;font-weight:700;font-size:0;position:absolute;right:10px;top:19px;cursor:pointer;z-index:10}
+#mb_lab i{padding-right:10px;font-size:19px}
+#mb_put:checked ~ .menu-fauzmags-container{display:block}
+#mb_put{cursor:pointer}
+.menu-fauzmags-container li{display:inline-block;float:none!important}
+.menu-fauzmags-container a{line-height:35px!important;margin:10px 1px!important;border-radius:3px}
+.menu-fauzmags-container a:hover{color:#921d1d!important}
+}
+@media screen and (max-width:640px){
+#page .featured-wrap>article,#page .post-outer{width:50%}
+#page .ultima-left-child .recent-second .recent-thumb{display:none}
+#page .ultima-left-child .recent-thumb{display:none}
+#page .ultima-left-child .post-recent .recent-meta{padding-left:0}
+#page .ultima-left-child .post-recent{padding:15px;padding-bottom:0px}
+#page .ultima-left-child .post-recent-first{padding:15px;padding-bottom:0}
+#page .page-ultima-right .post-recent .recent-thumb{float:none;margin:0;width:100%;height:160px}
+#page .page-ultima-right .post-recent .recent-meta{padding-left:0;overflow:inherit;display:block;clear:both;padding-top:15px}
+#footer .footer-widget-item{width:100%;}
+}
+@media screen and (max-width:540px){
+#page .featured-wrap>article,#page .post-outer,#page .ultima-right-child .post-recent{width:100%}
+#page .footer-widget-item{width:100%}
+#page .entry-thumbnail>a{height:150px;}
+}
